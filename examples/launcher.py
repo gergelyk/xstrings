@@ -1,6 +1,6 @@
 import os
 import xstrings
-from googletrans import Translator
+import deepl
 
 # This code instructs Python how to parse the code with user-defined string literals.
 # It must be executed before we import user-defined code.
@@ -26,7 +26,7 @@ sys_lang = os.getenv('LANG', 'en').split('.')[0].split('_')[0]
 def translate(text, lang):
     if lang == 'orig':
         return text
-    return Translator().translate(text, dest=lang).text
+    return deepl.translate(source_language="en", target_language=lang, text=text)
 
 transforms = {'t': lambda text: translate(text, sys_lang)}
 xstrings.register(transforms, coding="lang_auto")

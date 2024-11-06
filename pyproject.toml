@@ -1,6 +1,7 @@
 [tool.poetry]
 name = "x-strings"
-version = "0.1.0"
+version = "0.1.1"
+license = "MIT"
 description = "Extend Python syntax by defining custom string prefix"
 authors = ["Grzegorz Krason <grzegorz.krason@gmail.com>"]
 readme = "README.md"
@@ -10,6 +11,13 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+
+
+[tool.poetry.group.examples.dependencies]
+deepl-translate = "^1.2.0"
+wxpython = "^4.2.2"
 
 [build-system]
 requires = ["poetry-core"]
