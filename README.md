@@ -16,7 +16,7 @@ This project is only a toy. Technique used here shouldn't be considered as a goo
 
 ## Examples
 
-Simple example is shown below. More advanced examples can be found in [here](https://github.com/gergelyk/xstrings/tree/master/examples).
+Simple example is shown below.
 
 `app.py`:
 
@@ -36,9 +36,15 @@ import app
 
 Notice exclamation marks added to the end of the message:
 ```sh
+$ python3 -B examples/launcher.py
+Hello World!!!
+```
+
+This and more advanced examples can be found in [here](https://github.com/gergelyk/xstrings/tree/master/examples). Run them as:
+
+```py
 $ poetry install --with examples
 $ poetry run python3 -B examples/launcher.py
-Hello World!!!
 ```
 
 ## Caching
