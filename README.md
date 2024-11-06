@@ -40,12 +40,7 @@ $ python3 -B examples/launcher.py
 Hello World!!!
 ```
 
-This and more advanced examples can be found in [here](https://github.com/gergelyk/xstrings/tree/master/examples). Run them as:
-
-```py
-$ poetry install --with examples
-$ poetry run python3 -B examples/launcher.py
-```
+This and more advanced examples can be found in [here](https://github.com/gergelyk/xstrings/tree/master/examples).
 
 ## Caching
 

@@ -1,9 +1,8 @@
 # Examples
 
-```sh
-# Examples require the following:
-pip install wxpython==4.2.2 googletrans==3.1.0a0
+Run these examples as:
 
-# Run them as:
-python3 launcher.py
+```py
+$ poetry install --with examples
+$ poetry run python3 -B examples/launcher.py
 ```
