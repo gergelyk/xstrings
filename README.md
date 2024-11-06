@@ -37,7 +37,7 @@ import app
 Notice exclamation marks added to the end of the message:
 ```sh
 $ poetry install --with examples
-$ python3 launcher.py
+$ python3 -B launcher.py
 Hello World!!!
 ```
 
