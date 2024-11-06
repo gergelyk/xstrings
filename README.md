@@ -1,4 +1,7 @@
 # x-strings
+![PyPI - Version](https://img.shields.io/pypi/v/x-strings)
+![PyPI - License](https://img.shields.io/pypi/l/x-strings)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/x-strings)
 
 Extend Python syntax by defining custom string prefix. Provide function that transforms strings with your prefix.
 
